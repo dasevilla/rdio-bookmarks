@@ -1,10 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import requests
 
-# http://127.0.0.1:5000/static/chart.html
-# http://127.0.0.1:5000/static/registrations.html
-# http://127.0.0.1:5000/static/bookmarks.html
-
 DELICIOUS_USER = 'onodevo'
 
 app = Flask(__name__)
